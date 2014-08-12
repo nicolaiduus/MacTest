@@ -16,6 +16,7 @@
 
 -(void)sayHello;
 -(void)sayByeBye;
+-(void)myMethod;
 
 @end
 
@@ -49,5 +50,9 @@
 -(void)sayByeBye{
     NSLog(@"Bye - Bye");
 }
+-(void)myMethod{
+    NSLog(@"sdsdsdsd");
+}
+
 
 @end
