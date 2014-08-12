@@ -43,4 +43,8 @@
     NSLog(@"Hello");
 }
 
+-(void)method{
+    NSLog(@"xsddsd");
+}
+
 @end
