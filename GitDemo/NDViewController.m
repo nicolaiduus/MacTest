@@ -60,4 +60,8 @@
     
 }
 
+-(void)method{
+    NSLog(@"xsddsd");
+}
+
 @end
