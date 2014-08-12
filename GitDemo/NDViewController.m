@@ -15,6 +15,7 @@
 @property (nonatomic,strong) NDTestClass *testClass;
 
 -(void)sayHello;
+-(void)sayByeBye;
 
 @end
 
@@ -24,6 +25,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
     int a = 5;
     int b = 10;
     
@@ -31,6 +33,8 @@
     
     NSLog(@"The result is: %d",self.sum);
     [self sayHello];
+    
+    [self sayByeBye];
 }
 
 - (void)didReceiveMemoryWarning
@@ -41,6 +45,8 @@
 
 -(void)sayHello{
     NSLog(@"Hello");
+-(void)sayByeBye{
+    NSLog(@"Bye - Bye");
 }
 
 @end
