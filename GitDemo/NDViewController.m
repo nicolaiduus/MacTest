@@ -45,6 +45,7 @@
 
 -(void)sayHello{
     NSLog(@"Hello");
+}
 -(void)sayByeBye{
     NSLog(@"Bye - Bye");
 }
