@@ -21,6 +21,7 @@
 		A034D4AD199A2ACC00FEC2EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A034D48F199A2ACC00FEC2EC /* UIKit.framework */; };
 		A034D4B5199A2ACC00FEC2EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A034D4B3199A2ACC00FEC2EC /* InfoPlist.strings */; };
 		A034D4B7199A2ACC00FEC2EC /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A034D4B6199A2ACC00FEC2EC /* GitDemoTests.m */; };
+		A034D4C2199A2FBB00FEC2EC /* NDTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A034D4C1199A2FBB00FEC2EC /* NDTestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A034D4B2199A2ACC00FEC2EC /* GitDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitDemoTests-Info.plist"; sourceTree = "<group>"; };
 		A034D4B4199A2ACC00FEC2EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A034D4B6199A2ACC00FEC2EC /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
+		A034D4C0199A2FBB00FEC2EC /* NDTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTestClass.h; sourceTree = "<group>"; };
+		A034D4C1199A2FBB00FEC2EC /* NDTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDTestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				A034D49D199A2ACC00FEC2EC /* Main.storyboard */,
 				A034D4A0199A2ACC00FEC2EC /* NDViewController.h */,
 				A034D4A1199A2ACC00FEC2EC /* NDViewController.m */,
+				A034D4C0199A2FBB00FEC2EC /* NDTestClass.h */,
+				A034D4C1199A2FBB00FEC2EC /* NDTestClass.m */,
 				A034D4A3199A2ACC00FEC2EC /* Images.xcassets */,
 				A034D492199A2ACC00FEC2EC /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A034D4C2199A2FBB00FEC2EC /* NDTestClass.m in Sources */,
 				A034D4A2199A2ACC00FEC2EC /* NDViewController.m in Sources */,
 				A034D49C199A2ACC00FEC2EC /* NDAppDelegate.m in Sources */,
 				A034D498199A2ACC00FEC2EC /* main.m in Sources */,

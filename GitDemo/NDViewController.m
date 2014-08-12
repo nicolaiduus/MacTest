@@ -12,6 +12,8 @@
 
 @property (nonatomic)int sum;
 
+@property (nonatomic,strong) NDTestClass *testClass;
+
 @end
 
 @implementation NDViewController
