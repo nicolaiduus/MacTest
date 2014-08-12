@@ -57,9 +57,7 @@
 }
 
 -(void)nyMethod{
-    
-}
-
+    }
 -(void)method{
     NSLog(@"xsddsd");
 }
