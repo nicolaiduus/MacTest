@@ -17,6 +17,8 @@
 -(void)sayHello;
 -(void)sayByeBye;
 -(void)myMethod;
+-(void)nyMethod;
+
 
 @end
 
@@ -54,5 +56,8 @@
     NSLog(@"sdsdsdsd");
 }
 
+-(void)nyMethod{
+    
+}
 
 @end
