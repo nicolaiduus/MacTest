@@ -47,10 +47,10 @@
 }
 
 -(void)sayHello{
-    NSLog(@"Hello");
+    NSLog(@"Hello World");
 }
 -(void)sayByeBye{
-    NSLog(@"Bye - Bye");
+    NSLog(@"Bye - Bye asdasda");
 }
 -(void)myMethod{
     NSLog(@"sdsdsdsd");
